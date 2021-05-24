@@ -70,9 +70,9 @@ private:
 
 	float R_intr = 3; // примерно 7 равновесных радиусов 50 \approx 7^2
 	float R_intr2 = std::pow(R_intr, 2);
-	double tau = 0.0005;
+	double tau = 0.0002;
 	double tau2 = std::pow(tau, 2);
-	long int max_step = 2000;
+	long int max_step = 5000;
 	double delay_frame = 0.002;
 	long int field_half_size = (long int) (100/R_intr);
 	long int field_size = 2*field_half_size+1;
